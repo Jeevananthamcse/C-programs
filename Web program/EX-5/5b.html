@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>
+Login page
+</title>
+</head>
+<body>
+
+<form name="login">
+Username<input type="text" name="userid"/><br><br>
+Password<input type="password" name="pswrd"/><br>
+<input type="button" onclick="check(this.form)" value="Login"/><br>
+<input type="reset" value="Cancel"/>
+</form>
+<script language="javascript">
+function check(form)
+{
+
+ if(form.userid.value == "a" && form.pswrd.value == "p")
+  {
+	alert("login successfully")
+    
+  }
+ else
+ {
+   alert("Error Password or Username")
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <meta charset="utf-8">
+  <title>Fade in and fade out all division elements</title>
+<script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("div").fadeOut(3000);
+  });
+   $("#btn2").click(function(){
+    $("div").fadeIn(3000);
+  }); 
+});
+</script>
+</head>
+<body>
+<div style="background:
+#2E9AFE;width:100%;">My Effect is fadeOut Effect</div>
+<button id="btn2">Fade In (3 Second)</button>
+<button id="btn1">Fade Out (3 Second)</button>
+</body>
+</html>
